@@ -1,0 +1,55 @@
+.body{
+    margin: 0;
+    padding:0;
+}
+
+/* css modal */
+
+.modal_over{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0,0.5);
+    opacity: 1;
+}
+.modal_containtner{
+    background-color: #ffffff;
+    max-width: 500px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10%;
+}
+#btn_close{
+    background: none;
+    color: #ffffff;
+    border: none;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    cursor: pointer;  
+}
+#btn_close:active{transform: scale(0.9);}
+
+.modal_titlebar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    color: #ffffff;
+    height: 40px;
+}
+.modal_title{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px 0px 15px;
+   
+}
+.modal_content{
+    padding: 8px 16px;
+}
+#content{
+    font-size: 20px;
+    font-weight: bold;
+}

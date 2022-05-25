@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.list-btn{
+    height: 86px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: bisque;
+    align-items: center;
+}
+.btn-navbar{
+    font-size: 30px;
+    max-width: 50;
+    margin: 10px;
+    padding: 10px 15px;
+}
+.newList_over{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ADD NEW WORD */
+.overScreen{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh; 
+}
+.ContainerDropDownlist{
+    position: fixed;
+    right: 140px;
+    top: 76px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background: rgba(0, 0, 0,0.5);
+}
+.btn-dropDownList{
+    margin:5px;
+    font-size: 20px;
+}
