@@ -1,39 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learn vobcabulary</title>
-    <link rel="stylesheet" href="css/modalWindow.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./Font/fontawesome-free-6.1.1-web/css/all.css">
 </head>
-
 <body>
-    <div class="list-btn">
-        <button class="btn-navbar" id="btn-Learn" >Learn</button>
-        <button class="btn-navbar" id="btn-newList">New List</button>
-        <button class="btn-navbar" id="btn-add">Add new word</button>
-        <button class="btn-navbar" id="test">Test</button>
+    <div class="content">
+        <div class="nav">
+            <div class="logo">
+                NoteEnglish
+            </div>
+            <div class="btn-login-nav-js login-up line">Log in</div>
+            <div class="btn-signup-nav-js login-up">Sign up</div>
+        </div>
+        <div class="container">
+            <div class="swap-content">
+                <div class="content-main">
+                    <div class="traidat">  
+                    </div>
+                    <div class="slogon-btn">
+                        <div class="slogon">
+                            Ghi nhớ từ vựng miễn phí, hiệu quả
+                        </div>
+                        <div class="btn">
+                            <button class="start">Bắt đầu</button>
+                            <button class="already">Tôi đã có tài khoản</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="container">
 
+
+
+    
+    <!-- ---------login-form----------- -->
+    <div class="login-back">
+        <div class="login-content">
+            <i class="user-header fa-solid fa-circle-user"></i>
+            <i class="exit-icon fa-solid fa-circle-xmark"></i>
+            <!-- <h2 class="header-login">
+                Member Login
+            </h2> -->
+
+            <div class="login-input">
+                <div class="username">
+                    <i class="fa-solid fa-user"></i>
+                    <input placeholder="User Name" type="text">
+                </div>
+                <div class="username">
+                    <i class="fa-solid fa-lock"></i>
+                    <input placeholder="Password" type="password">
+                </div>
+                <div class="login-btn">
+                    <button>Login</button>
+                </div>
+            </div>
+
+            <div class="btn-dangky-js dangky">
+                Create Account
+            </div>
+        </div>
     </div>
 
-    <div id="Container_dropDown">
-        
+
+    <!-- ---------DangKy form-------------- -->
+
+
+    <div class="signup-back">
+        <div class="signup-content">
+            <i class="user-header fa-solid fa-circle-user"></i>
+            <i class="exit-icon fa-solid fa-circle-xmark"></i>
+
+            <div class="signup-input">
+                <div class="username">
+                    <i class="fa-solid fa-user"></i>
+                    <input placeholder="User Name" type="text">
+                </div>
+                <div class="username">
+                    <i class="fa-solid fa-lock"></i>
+                    <input placeholder="Password" type="password">
+                </div>
+                <div class="username">
+                    <i class="fa-solid fa-lock"></i>
+                    <input placeholder="Retry Password" type="password">
+                </div>
+                <div class="login-btn">
+                    <button >Sign Up</button>
+                </div>
+            </div>
+        </div>
     </div>
-    
-    
-    
+    <script> </script>
+    <script src="./main.js"></script>
 </body>
-<script src="js/modalWindow.js"></script>
-<script src="js/index.js"></script>
-
-
-</html>
+</html> 

@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #235390;
+    background-image: url(https://d35aaqx5ub95lt.cloudfront.net/images/star-pattern.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+}
+.logo {
+    flex: 1;
+    margin-left: 50px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(120, 120, 120, 0.5);
+    height: 50px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+.user-icon  {
+    margin-right: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.name {
+    margin-right:10px ;
+    cursor: pointer;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.main-content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.swap {
+    height: 50%;
+    width: 50%;
+    background: url(https://d35aaqx5ub95lt.cloudfront.net/images/star-pattern.svg);
+    background-size: cover;
+    background-color: #153968;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 13px;
+}
+.btn-net-pre {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.ques {
+    width: 100%;
+    text-align: center;
+    
+}
+.ques > span {
+    display: inline-block;
+    font-size: 20px;
+    background-color: #ccc;
+    width: 40%;
+    padding: 20px 0;
+    border-radius: 13px;
+}
+.anser-in {
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 13px;
+    border-color:  transparent;
+    outline: none;
+}
+.check {
+    background-color: greenyellow;
+    width: 30%;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 13px;
+    cursor: pointer;
+
+}
+.anser-in {
+    background-color: #ccc;
+}
+.next,
+.pre {
+    background-color: #ccc;
+    width: 70px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+.fontGreen{
+    color: greenyellow;
+    transform: scale(1.5);
+}
+.fontRed{
+    color: rgb(238, 28, 28);
+    transform: scale(1.5);
+}
+.ketqua{
+    opacity: 0;
+}

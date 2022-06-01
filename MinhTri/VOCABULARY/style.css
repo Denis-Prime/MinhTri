@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #235390;
+    background-image: url(https://d35aaqx5ub95lt.cloudfront.net/images/star-pattern.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+}
+.logo {
+    flex: 1;
+    margin-left: 50px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(120, 120, 120, 0.5);
+    height: 50px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+.login-up {
+    position: relative;
+    margin: 0 45px;
+    cursor: pointer;
+    transition: linear 0.3s;
+}
+.login-up:hover {
+    color: white;
+}
+.line::before {
+    position: absolute;
+    content: "";
+    border-left: 2px solid #6b6464;
+    height: 100%;
+    right: -45px;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    /* display: none; */
+}
+
+@keyframes move1 { 
+    from {left: 200px; opacity: 0;}
+    to {left: 0; opacity: 1;}
+}
+.buttom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+    
+}
+.butswap {
+    margin-right: 500px;
+}
+.but {
+    display: inline-block;
+    border: none;
+    margin: 0 60px;
+    padding: 10px 70px;
+    font-size: x-large;
+    background-color: bisque;
+    border-radius: 13px;
+    cursor: pointer;
+}
+.traidat {
+    background: url(https://d35aaqx5ub95lt.cloudfront.net/images/331a32943ff73be28537dfc7469d5639.svg);
+    background-size: 360px;
+    width: 360px;
+    height: 360px;
+}
+.swap-content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.content-main {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: fit-content;
+}
+.slogon-btn {
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+}
+.slogon {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: white;
+    margin: 40px 0 40px 0;
+}
+.btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.start,
+.already {
+    display: inline-block;
+    width: 50%;
+    margin: 20px 0;
+    padding: 13px;
+    border-radius: 13px;
+    font-size: 20px;
+    border-color: transparent;
+}
+.start {
+    border-color: #58a700 ;
+    background-color: #58cc02;
+    color: white;
+    box-shadow: 0 3px 1px #58a700;;
+}
+.already {
+    border-color: #042c60;
+    background-color: #235390;
+    color: white;
+    box-shadow: 0 3px 1px #042c60;
+}
+
+
+/* ----------login-form------ */
+.login-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(120, 120, 120, 0.5);
+    display: none;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.login-content,
+.signup-content {
+    position: relative;
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 13px;
+    animation: scale 0.3s linear ;
+}
+.login-input {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.username {
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    padding: 7px 10px;
+    border-radius: 13px;
+}
+.username > input {
+    border: none;
+    outline: none;
+}
+.login-btn {
+    margin-top: 5px;
+    height: 35px;
+}
+.login-btn > button {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: aquamarine;
+    border-color: transparent ;
+    border-radius: 13px;
+    cursor: pointer;
+}
+.dangky {
+    color: black;
+    opacity: 0.4;
+    cursor: pointer;
+}
+.exit-icon {
+    position: absolute;
+    right: -16px;
+    top: -19px;
+    font-size: 38px;
+    color: antiquewhite ;
+    border-radius: 50%;
+    background-color: red; 
+    cursor: pointer;
+}
+.user-header {
+    position: absolute;
+    top: -53px;
+    font-size: 99px;
+    color: rgb(70, 132, 111);
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0 2px 9px black; 
+}
+/* ------------Signup-------------- */
+.signup-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(120, 120, 120, 0.5);
+    display: none;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.signup-input {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+@keyframes scale {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}

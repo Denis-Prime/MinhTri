@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #235390;
+    background-image: url(https://d35aaqx5ub95lt.cloudfront.net/images/star-pattern.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+}
+.logo {
+    flex: 1;
+    margin-left: 50px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(120, 120, 120, 0.5);
+    height: 50px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+.user-icon  {
+    margin-right: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.name {
+    margin-right:10px ;
+    cursor: pointer;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.input-with-add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.english-input {
+    margin-right: 40px;
+}
+.add {
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 13px;
+    border-color: rgb(132, 198, 176);
+    background-color: aquamarine;
+    cursor: pointer;
+}
+.table {
+    height: 50%;
+    margin-top: 20px;
+    overflow: auto;
+}
+.tablecontent {
+    list-style: ;
+}
+.english-input .english,
+.vn-input .vn {
+    padding: 10px;
+    border-radius: 13px;
+    border-color: transparent ;
+    outline: none;
+
+}
+.english-key,
+.vn-key {
+    font-size: 20px;
+    color: white;
+}
+.btn-option {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+}
+
+.option {
+    padding: 10px 30px;
+}
+
+.save,
+.clear,
+.delete,
+.test,
+.showAll {
+    border-radius: 13px;
+    border-color: transparent;
+    cursor: pointer;
+}
+.save {
+    background-color: greenyellow;
+
+}
+.clear {
+    background-color: orange;
+}
+.delete {
+    background-color: red;
+}
+.test{
+    background-color: aqua;
+}
+.showAll{
+    background-color: rgb(157, 57, 140);
+}
+
+/* ADDED BY MINH TRI */
+.hightlight{
+    color: red;
+}
