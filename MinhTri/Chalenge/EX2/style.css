@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+}
+#container{
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(red, green, blue);
+}
+#btn-change,#btn-copy,span,#btn-copy2{
+    font-size: 30px;
+}
+
